@@ -1,0 +1,22 @@
+{
+  "name": "podium_cypress",
+  "version": "1.0.0",
+  "description": "Phil's Podium Test Assignment",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philga7/podium_cypress.git"
+  },
+  "author": "Phil Clapper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philga7/podium_cypress/issues"
+  },
+  "homepage": "https://github.com/philga7/podium_cypress#readme"
+}
