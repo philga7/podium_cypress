@@ -16,18 +16,13 @@ The other plugins are, in my view, fantastically helpful in terms of expanding C
 
 This assignment is the first time I've used the `cypress-iframe` plugin, and I'll never forget it. Previously, there was no way for Cypress to see iframe-based elements. With this plugin, anything can be seen in any iframe!
 ## Installation
-Sit inside the `cypress` directory and execute the following command:
+Sit inside the root directory and execute the following command:
 ```bash
 npm install
 ```
 ## Directory Structure
 This repo is set up as a typical Cypress installation:
 * `cypress`
-    * `.gitignore`
-    * `cypress.json`
-    * `package.json`
-    * `README.md`
-    * `Dockerfile`
     * `integration`
         * `basic_field_test.spec.js`
         * `basic_modal_elements.spec.js`
@@ -35,6 +30,11 @@ This repo is set up as a typical Cypress installation:
         * `initial_test.spec.js`
     * `support`
         * `commands.js`
+* `.gitignore`
+* `cypress.json`
+* `package.json`
+* `README.md`
+* `Dockerfile`
 ## Directory Explanation
 * `initial_test.spec.js`: Original Cypress sanity check test; can be used as a high-level smoke test
 * `basic_page_elements.spec.js`: Validates most page elements; smoke test
