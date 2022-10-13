@@ -4,7 +4,10 @@
   "description": "Phil's Podium Test Assignment",
   "main": "index.js",
   "devDependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-real-events": "^1.7.1",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,8 +18,7 @@
   },
   "author": "Phil Clapper",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/philga7/podium_cypress/issues"
-  },
-  "homepage": "https://github.com/philga7/podium_cypress#readme"
+  "dependencies": {
+    "cypress-real-events": "^1.7.1"
+  }
 }

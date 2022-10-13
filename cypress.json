@@ -1,3 +1,4 @@
 {
-    "baseUrl": "https://demo.podium.tools/qa-webchat-lorw/"
+    "baseUrl": "https://demo.podium.tools/qa-webchat-lorw/",
+    "defaultCommandTimeout": 10000
 }
