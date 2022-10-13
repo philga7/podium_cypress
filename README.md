@@ -47,7 +47,7 @@ I chose not to use an explicit page object model structure due to time and the f
 
 However, I have included a new Cypress command in the `commands` file, `cy.clickPodiumBubble()`, briefly demonstrating how to create a function that uses repeated commands.
 ## Execution
-Running tests is simple. Sitting in the `cypress` parent directory, if you want to load the Cypress Test Runner:
+Running tests is simple. Sitting in the root directory, if you want to load the Cypress Test Runner:
 ```bash
 npx cypress open
 ```
@@ -66,7 +66,7 @@ However, I am currently running on an M1-based MacBook Air, and unless Cypress w
 
 If you are executing this assignment on an Intel-based machine, consider the following commands:
 
-Sitting in the parent directory:
+Sitting in the root directory:
 ```bash
 docker build -t cypress-test-image:1.0.0 .
 ```
