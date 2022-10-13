@@ -24,3 +24,12 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-iframe'
+
+Cypress.Commands.add('clickPodiumBubble', () => {
+    cy.get('#podium-bubble')
+        .should('exist')
+    cy.get('#podium-prompt')
+        .should('exist')
+    cy.get('#podium-bubble')
+        .realClick()
+})

@@ -13,12 +13,7 @@ describe('General Modal Smoke Test', () => {
             .should('have.text', 'close')
         */
         // Other elements here.
-        cy.get('#podium-bubble')
-            .should('exist')
-        cy.get('#podium-prompt')
-            .should('exist')
-        cy.get('#podium-bubble')
-            .realClick()
+        cy.clickPodiumBubble()
         cy.frameLoaded('#podium-modal')
         cy.iframe('#podium-modal').contains('Select Location')
             .should('be.visible')
