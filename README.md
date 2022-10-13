@@ -23,11 +23,6 @@ npm install
 ## Directory Structure
 This repo is set up as a typical Cypress installation:
 * `cypress`
-    * `.gitignore`
-    * `cypress.json`
-    * `package.json`
-    * `README.md`
-    * `Dockerfile`
     * `integration`
         * `basic_field_test.spec.js`
         * `basic_modal_elements.spec.js`
@@ -35,6 +30,11 @@ This repo is set up as a typical Cypress installation:
         * `initial_test.spec.js`
     * `support`
         * `commands.js`
+* `.gitignore`
+* `cypress.json`
+* `package.json`
+* `README.md`
+* `Dockerfile`
 ## Directory Explanation
 * `initial_test.spec.js`: Original Cypress sanity check test; can be used as a high-level smoke test
 * `basic_page_elements.spec.js`: Validates most page elements; smoke test
