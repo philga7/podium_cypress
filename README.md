@@ -16,7 +16,7 @@ The other plugins are, in my view, fantastically helpful in terms of expanding C
 
 This assignment is the first time I've used the `cypress-iframe` plugin, and I'll never forget it. Previously, there was no way for Cypress to see iframe-based elements. With this plugin, anything can be seen in any iframe!
 ## Installation
-Sit inside the `cypress` directory and execute the following command:
+Sit inside the root directory and execute the following command:
 ```bash
 npm install
 ```
